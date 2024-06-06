@@ -15,6 +15,10 @@ export default function MainContent() {
                 code="https://github.com/GProgrammerN/sistemaexecucaopenal"
                 deploy="https://sistemaexecucaopenal.vercel.app/"
                 image="/sistemaexecucaopenal.png" />
+            <Project title="Portfólio" description="O código desse portfólio."
+                stack={["Next.js", "TypeScript", "Tailwind CSS"]}
+                code="https://github.com/GProgrammerN/portfolio"
+                image="/portfolio.png" />
             <h1 className="mb-2 text-2xl font-light select-none">Educação</h1>
             <div>
                 <h4 id="education" className="font-semibold text-xl"><span className="text-white">Análise e Desenvolvimento de Sistemas</span> - IFSP (Capivari)</h4>
