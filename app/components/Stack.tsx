@@ -1,6 +1,6 @@
 export default function Stack() {
     return (
-        <ul className="flex gap-x-2 mt-4 lg:mt-0 ml-4">
+        <ul className="flex gap-x-2 mt-4 lg:mt-0">
             <li className="hover:text-slate-200">
                 <a href="https://github.com/GProgrammerN/" target="_blank" rel="noreferrer">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" className="h-8 w-8 md:h-12 md:w-12" fill="currentColor">
