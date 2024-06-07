@@ -5,9 +5,11 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Guilherme Nacci",
+  title: "Guilherme Horta Nacci",
   description: "Desenvolvedor Web",
-  icons: "/favicon.ico",
+  icons: {
+    icon: '/favicon.ico',
+  },
 };
 
 export default function RootLayout({
