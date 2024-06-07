@@ -1,34 +1,14 @@
+import Navbar from "./Navbar";
+
 export default function Profile() {
     return (
-        <div>
-            <h1 className="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl">Guilherme Nacci</h1>
+        <div className="ml-4">
+            <h1 className="font-mono overflow-hidden
+            min-[425px]:border-r-4 border-r-white text-5xl text-white font-bold min-[425px]:max-w-max
+            min-[425px]:whitespace-nowrap min-[425px]:animate-typing">Guilherme Nacci</h1>
             <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">Desenvolvedor Web</h2>
             <h3 className="mt-4 max-w-xs leading-normal">Trabalho principalmente no desenvolvimento web com Next.js.</h3>
-            <nav className="hidden lg:block" aria-label="In-page jump links">
-                <ul className="mt-16 w-max">
-                    <li>
-                        <span className="hover:text-lg hover:text-white">
-                            <a href="#about" className="flex items-center py-3">
-                                Sobre
-                            </a>
-                        </span>
-                    </li>
-                    <li>
-                        <span className="hover:text-lg hover:text-white">
-                            <a href="#project" className="flex items-center py-3">
-                                Projetos
-                            </a>
-                        </span>
-                    </li>
-                    <li>
-                        <span className="hover:text-lg hover:text-white">
-                            <a href="#education" className="flex items-center py-3">
-                                Educação
-                            </a>
-                        </span>
-                    </li>
-                </ul>
-            </nav>
+            <Navbar />
         </div>
     )
 }
