@@ -1,0 +1,14 @@
+{
+    "header": {
+        "profile": {
+            "title": "",
+            "description": "",
+            "navbar": {
+                "about": "",
+                "project": "",
+                "skills": "",
+                "education": ""
+            }
+        }
+    }
+}

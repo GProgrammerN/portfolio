@@ -18,6 +18,13 @@ export default function Navbar() {
                 </li>
                 <li>
                     <span className="hover:text-lg hover:text-white">
+                        <a href="#skills" className="flex items-center py-3">
+                            Habilidades
+                        </a>
+                    </span>
+                </li>
+                <li>
+                    <span className="hover:text-lg hover:text-white">
                         <a href="#education" className="flex items-center py-3">
                             Educação
                         </a>

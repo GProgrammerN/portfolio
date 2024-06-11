@@ -8,7 +8,7 @@ export default function Profile() {
             min-[425px]:border-r-4 border-r-white text-4xl text-white font-extrabold min-[425px]:max-w-max
             min-[425px]:whitespace-nowrap min-[425px]:animate-typing">
                 <span className="xl:flex">
-                    Guilherme H. <span className="hidden 2xl:block">&#8287;Nacci</span>
+                    Guilherme H.
                 </span>
             </h1>
             <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">Desenvolvedor Web</h2>
