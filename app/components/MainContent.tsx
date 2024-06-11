@@ -19,7 +19,7 @@ export default function MainContent() {
                 image="/portfolio.png" />
             <h1 id="skills" className="mb-2 text-2xl font-light select-none">Habilidades</h1>
             <Skills />
-            <h1 id="education" className="mb-2 text-2xl font-light select-none">Educação</h1>
+            <h1 id="education" className="mt-8 mb-2 text-2xl font-light select-none">Educação</h1>
             <Education />
         </main>
     )
