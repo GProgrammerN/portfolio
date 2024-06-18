@@ -1,0 +1,40 @@
+{
+    "header": {
+        "profile": {
+            "title": "Desenvolvedor Web",
+            "description": "Trabalho principalmente no desenvolvimento web com Next.js.",
+            "navbar": {
+                "about": "Sobre",
+                "project": "Projetos",
+                "skills": "Habilidades",
+                "education": "Educação"
+            }
+        }
+    },
+    "main-content": {
+        "about": "Sempre tive interesse na área da tecnologia, mexendo com criação de servidores de jogos durante a adolescência. Cheguei a fazer alguns sobre Python e a tríade web na época do ensino médio.",
+        "about-2": "Mas foi em 2023 que, meu pai, ex-programador (atualmente advogado) teve a ideia de iniciar o projeto de um micro SaaS (Software como Serviço) voltado para advogados criminalistas. E foi a partir desse projeto que comecei a evoluir muito como programador. Desde então, venho focando todos os meus esforços para me aprimorar na área.",
+        "project": {
+            "access": "Acessar",
+            "code": "Repositório",
+            "function": "Função:",
+                "01": {
+                    "title": "Sistema de Execução Penal",
+                    "description": "Auxiliar advogados em seus cálculos de execução penal, os permitindo gerenciar seus clientes."
+                },
+                "02": {
+                    "title": "Portfólio",
+                    "description": "O código desse portfólio."
+                }
+        },
+        "education": {
+            "title": "Análise e Desenvolvimento de Sistemas",
+            "level": "Curso Superior",
+            "start-date-message": "Início:",
+            "end-date-message": "Previsão de Conclusão:"
+        }
+    },
+    "language-options": {
+        "path": "/en"
+    }
+}

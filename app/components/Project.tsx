@@ -7,6 +7,9 @@ interface ProjectProps {
     stack: Array<String>
     deploy?: string,
     code: string,
+    function: string,
+    codeMessage: string,
+    access?: string,
 }
 
 export default function Project(props: ProjectProps) {
@@ -16,7 +19,7 @@ export default function Project(props: ProjectProps) {
                 <h4 className="font-bold text-xl">{props.title}</h4>
                 <Image height={400} width={600} alt='' src={props.image} />
                 <p>
-                    <span className="font-semibold">Função:</span> {props.description}
+                    <span className="font-semibold">{props.function}</span> {props.description}
                 </p>
                 <ul className="flex flex-wrap">
                     {props.stack.map((item, index) => (
@@ -30,17 +33,17 @@ export default function Project(props: ProjectProps) {
             </div>
             <div className="flex justify-center sm:justify-start">
                 {props.deploy && (
-                    <a href={`${props.deploy}`} target="_blank" rel="noreferrer">
-                        <button className="mt-3 rounded-full mr-2 bg-teal-400 hover:bg-teal-600 px-8 py-2 text-xs font-medium leading-5 text-teal-900 hover:text-teal-950">
-                            Acessar
-                        </button>
-                    </a>
-                )}
-                <a href={`${props.code}`} target="_blank" rel="noreferrer">
-                    <button className="mt-3 rounded-full bg-violet-400 hover:bg-violet-600 px-8 py-2 text-xs font-medium leading-5 text-white hover:text-black">
-                        Repositório
+                    <button className="mt-3 rounded-full mr-2 bg-teal-400 hover:bg-teal-600 px-8 py-2 text-xs font-medium leading-5 text-teal-900 hover:text-teal-950">
+                        <a href={`${props.deploy}`} target="_blank" rel="noreferrer">
+                            {props.access}
+                        </a>
                     </button>
-                </a>
+                )}
+                <button className="mt-3 rounded-full bg-violet-400 hover:bg-violet-600 px-8 py-2 text-xs font-medium leading-5 text-white hover:text-black">
+                    <a href={`${props.code}`} target="_blank" rel="noreferrer">
+                        {props.codeMessage}
+                    </a>
+                </button>
             </div>
         </section>
     )

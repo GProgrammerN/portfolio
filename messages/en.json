@@ -1,0 +1,40 @@
+{
+    "header": {
+        "profile": {
+            "title": "Web Developer",
+            "description": "I primarily work in web development with Next.js.",
+            "navbar": {
+                "about": "About",
+                "project": "Projects",
+                "skills": "Skills",
+                "education": "Education"
+            }
+        }
+    },
+    "main-content": {
+    "about": "I have always had an interest in technology, tinkering with game server creation during my teenage years. I even did some work on Python and the web triad during high school.",
+    "about-2": "But it was in 2023 that my father, a former programmer (now a lawyer), had the idea to start a micro SaaS (Software as a Service) project aimed at criminal lawyers. It was through this project that I began to evolve significantly as a programmer. Since then, I have been focusing all my efforts on improving in this field.",
+    "project": {
+            "access": "Access",
+            "code": "Repository",
+            "function": "Function:",
+                "01": {
+                    "title": "Criminal Sentence Execution System",
+                    "description": "Assist lawyers in their criminal sentence execution calculations, allowing them to manage their clients."
+                },
+                "02": {
+                    "title": "Portfolio",
+                    "description": "The code for this portfolio."
+                }
+            },
+        "education": {
+            "title": "Systems Analysis and Development",
+            "level": "Higher Education",
+            "start-date-message": "Start Date:",
+            "end-date-message": "Expected Completion Date:"
+        }
+    },
+    "language-options": {
+        "path": "/pt"
+    }
+}
