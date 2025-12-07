@@ -12,8 +12,8 @@
         }
     },
     "main-content": {
-    "about": "I have always had an interest in technology, tinkering with game server creation during my teenage years. I even did some work on Python and the web triad during high school.",
-    "about-2": "But it was in 2023 that my father, a former programmer (now a lawyer), had the idea to start a micro SaaS (Software as a Service) project aimed at criminal lawyers. It was through this project that I began to evolve significantly as a programmer. Since then, I have been focusing all my efforts on improving in this field.",
+    "title": "About",
+    "about": "I started my programming journey in 2023 by building web applications. That same year, I developed a functional SaaS using Next.js as my first major project. Since then, I have been creating commercial landing pages and honing my Python and React skills through the personal projects listed here.",
     "project": {
             "access": "Access",
             "code": "Repository",

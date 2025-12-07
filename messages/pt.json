@@ -12,8 +12,8 @@
         }
     },
     "main-content": {
-        "about": "Sempre tive interesse na área da tecnologia, mexendo com criação de servidores de jogos durante a adolescência. Cheguei a fazer alguns sobre Python e a tríade web na época do ensino médio.",
-        "about-2": "Mas foi em 2023 que, meu pai, ex-programador (atualmente advogado) teve a ideia de iniciar o projeto de um micro SaaS (Software como Serviço) voltado para advogados criminalistas. E foi a partir desse projeto que comecei a evoluir muito como programador. Desde então, venho focando todos os meus esforços para me aprimorar na área.",
+        "title": "Sobre",
+        "about": "Iniciei na programação em 2023 com o desenvolvimento de aplicações web. Ainda naquele ano, criei um SaaS funcional em Next.js como meu primeiro grande projeto. Desde então, venho desenvolvendo landing pages comerciais e aprimorando minhas habilidades em Python e React através dos projetos pessoais listados aqui.",
         "project": {
             "access": "Acessar",
             "code": "Repositório",

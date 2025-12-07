@@ -5,10 +5,9 @@ export default function About() {
 
     return (
         <span className="leading-normal max-w-xs md:max-w-none">
-            <p>{t('about')}</p>
-            <p className="mt-4 mb-16">
-                {t('about-2')}
-            </p>
+            <h1 className="mt-8 mb-2 text-2xl font-light select-none">{t('title')}</h1>
+
+            <p className="mb-16">{t('about')}</p>
         </span>
     )
 }
