@@ -14,6 +14,13 @@ export default function Navbar() {
                 </li>
                 <li>
                     <span className="hover:text-lg hover:text-white">
+                        <a href="#experience" className="flex items-center my-3">
+                            {t('profile.navbar.experience')}
+                        </a>
+                    </span>
+                </li>
+                <li>
+                    <span className="hover:text-lg hover:text-white">
                         <a href="#project" className="flex items-center my-3">
                             {t('profile.navbar.project')}
                         </a>

@@ -7,6 +7,7 @@
                 "about": "About",
                 "project": "Projects",
                 "skills": "Skills",
+                "experience": "Experience",
                 "education": "Education"
             }
         }
@@ -34,7 +35,22 @@
             "end-date-message": "Expected Completion Date:"
         }
     },
+    "work": {
+        "title": "Work Experience",
+        "items": {
+            "01": {
+                "company": "V4 Company - RVC & Co.",
+                "role": "Developer",
+                "period": "08/24 - 11/24",
+                "description": "Developed and maintained WordPress websites for local businesses, including hosting management, domain configuration, and ongoing technical support."
+            }
+        }
+    },
     "language-options": {
-        "path": "/pt"
+        "path": "/pt",
+        "emailCopied": "Email copied",
+        "phoneCopied": "Phone copied",
+        "confirmCopyEmail": "Do you want to copy the email?",
+        "confirmCopyPhone": "Do you want to copy the phone?"
     }
 }

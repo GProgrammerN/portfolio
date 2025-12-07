@@ -7,6 +7,7 @@
                 "about": "Sobre",
                 "project": "Projetos",
                 "skills": "Habilidades",
+                "experience": "Experiência",
                 "education": "Educação"
             }
         }
@@ -34,7 +35,22 @@
             "end-date-message": "Previsão de Conclusão:"
         }
     },
+    "work": {
+        "title": "Experiências Profissionais",
+        "items": {
+            "01": {
+                "company": "V4 Company - RVC & Co.",
+                "role": "Desenvolvedor",
+                "period": "08/24 - 11/24",
+                "description": "Desenvolvimento e manutenção de sites WordPress para comércios locais, incluindo gestão de hospedagem, configuração de domínio e suporte técnico contínuo."
+            }
+        }
+    },
     "language-options": {
-        "path": "/en"
+        "path": "/en",
+        "emailCopied": "E-mail copiado",
+        "phoneCopied": "Telefone copiado",
+        "confirmCopyEmail": "Deseja copiar o e-mail?",
+        "confirmCopyPhone": "Deseja copiar o telefone?"
     }
 }

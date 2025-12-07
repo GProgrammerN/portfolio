@@ -3,6 +3,7 @@ import About from "./About";
 import Education from "./Education";
 import Project from "./Project";
 import Skills from "./Skills";
+import WorkExperience from "./WorkExperience";
 
 export default function MainContent() {
     const ta = useTranslations('header')
@@ -10,6 +11,8 @@ export default function MainContent() {
     return (
         <main>
             <About />
+            <h1 id="experience" className="mt-8 mb-2 text-2xl font-light select-none">{ta('profile.navbar.experience')}</h1>
+            <WorkExperience />
             <h1 id="project" className="mb-2 text-2xl font-light select-none">{ta('profile.navbar.project')}</h1>
             <Project title={td('project.01.title')} description={td('project.01.description')}
                 stack={["Next.js", "TypeScript", "Tailwind CSS", "Firebase", "Stripe", "Resend"]}
